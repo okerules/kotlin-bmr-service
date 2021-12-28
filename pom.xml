@@ -17,7 +17,7 @@
     <description>Demo project for Spring Boot REST Service with Kot</description>
     <properties>
         <java.version>11</java.version>
-        <kotlin.version>1.6.0</kotlin.version>
+        <kotlin.version>1.4.21</kotlin.version>
     </properties>
     <dependencies>
         <dependency>
@@ -38,16 +38,16 @@
             <artifactId>spring-boot-starter-tomcat</artifactId>
             <scope>provided</scope>
         </dependency>
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
     <build>
         <sourceDirectory>${project.basedir}/src/main/kotlin</sourceDirectory>
-        <testSourceDirectory>${project.basedir}/src/test/kotlin</testSourceDirectory>
+       <!-- <testSourceDirectory>${project.basedir}/src/test/kotlin</testSourceDirectory>-->
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
